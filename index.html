@@ -2,19 +2,22 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- Das 'viewport-fit=cover' weist das iPhone an, den kompletten Bildschirm inkl. Home-Balken auszufüllen: -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="CreamyP Grow">
   <title>CreamyP Grow</title>
   <style>
-    body, html {
+    html, body {
       margin: 0;
       padding: 0;
       height: 100%;
       width: 100%;
       overflow: hidden;
-      background-color: #121216;
+      /* Dunkler Hintergrund schluckt weiße Ränder komplett: */
+      background-color: #121216; 
     }
     iframe {
       width: 100%;
@@ -25,7 +28,6 @@
   </style>
 </head>
 <body>
-  <!-- Ersetze die URL in src durch deinen echten Google Apps Script Link: -->
-  <iframe src="https://script.google.com/macros/s/AKfycbw_03-JGi-Q9j0njzE9JRYly5ayHewyuSXjyU-DJeUbntZxzN__trZ_3Wtujm0sNqsO/exec"></iframe>
+  <iframe src="HIER_DEIN_GOOGLE_APPS_SCRIPT_EXEC_LINK"></iframe>
 </body>
 </html>

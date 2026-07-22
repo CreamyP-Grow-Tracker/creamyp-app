@@ -1,0 +1,8 @@
+{
+  "name": "CreamyP Grow Tracker",
+  "short_name": "CreamyP",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121216",
+  "theme_color": "#121216"
+}
